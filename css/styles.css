@@ -68,12 +68,17 @@ body {
   color: #fff;
 }
 .page-button {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+.page-button:hover,
+.page-button:focus {
+  background: #404bbf;
 }
 .page-name {
   font-weight: 500;
@@ -149,6 +154,7 @@ body {
   color: #4d5ae5;
 }
 .logo-color {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -157,8 +163,12 @@ body {
   color: #f4f4fd;
 }
 .text-footer {
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.our-team {
+  background-color: #fff;
 }
